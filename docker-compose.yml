@@ -1,0 +1,8 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/pornpipatpt/bookinfo-details:dev
+    ports:
+      - "9080:9080"
+   
+      
