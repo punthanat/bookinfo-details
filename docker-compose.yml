@@ -3,6 +3,6 @@ services:
     build: .
     image: ghcr.io/punthanat/bookinfo-details:dev
     ports:
-      - "9080:9080"
+      - "8080:8080"
    
       
